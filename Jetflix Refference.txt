@@ -1,0 +1,17 @@
+Jetflix
+
+Color
+Text = #e3c7ff
+Background = #0f111f
+Primary Button = #4a54bf
+Secondary Button = #ebd6ff
+Accent = #85baff
+
+Font
+Logo = Fugaz One : 'Fugaz One', sans-serif;
+Description dll = Bebas Neue : 'Bebas Neue', sans-serif;
+
+Referensi
+- Google Image
+- Netflix (netflix.com)
+- Disney+ Hotstar (hotstar.com/id)

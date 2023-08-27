@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fugaz+One&display=swap" rel="stylesheet">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="loginpage">
+        <header>
+            <a href="index.html"><h1 id="logo-loginpage">JETFLIX</h1></a>
+        </header>
+        <section class="loginform">
+            <div>
+                <h1 id="form-title">Sign up</h1>
+            </div>
+            <div class="form-input">
+                <form id="form-input">
+                  <input type="text" id="email" placeholder="Email">
+                  <br>
+                  <input type="password" name="password" id="password" placeholder="Password">
+                  <br>
+                  <input type="password" name="password" id="confirm-password" placeholder="Confirm password">
+                  <br>
+                  <input type="date" id="birthdate">
+                  <br>
+                  <div class="input-gender-container">
+                    <div>
+                      <input type="radio" name="gender" id="input-gender-male">
+                      <label for="input-gender-male">Male</label>
+                    </div>
+                    <input type="radio" name="gender" id="input-gender-female">
+                    <label for="input-gender-female">Female</label>
+                  </div>
+                  <div class="submit-button">
+                    <div>
+                      <button id="submit-button">Sign Up</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+        </section>
+    </div>
+    <footer>
+      <div class="footer-signup">
+          <div>
+            <p>About | Need help? | Content Guide | Privacy Policy | Terms of Use | Advertising</p>
+            <br>
+            <p>Jetflix 2023. All rights reserved.</p>
+          </div>
+      </div>
+  </footer>
+  <script>
+    const formInput = document.getElementById("form-input");
+    const emailInput = document.getElementById("email");
+    const passwordInput = document.getElementById("password");
+    const confPassword = document.getElementById("confirm-password");
+    const birthInput = document.getElementById("birthdate");
+    const maleInput = document.getElementById("input-gender-male");
+    const femaleInput = document.getElementById("input-gender-female");
+
+    formInput.onsubmit = function(event){
+      event.preventDefault();
+
+      const email = emailInput.value;
+      const password = passwordInput.value;
+      const conpass = confPassword.value;
+      const age = birthInput.value;
+      const isMaleChecked = maleInput.checked;
+      const isFemaleChecked = femaleInput.checked;
+
+      if(!email.includes("@")){
+        alert("Please enter a valid email address.");
+        return;
+      }
+
+      if(password.length < 5){
+        alert("Password must contain atleast 5 characters");
+        return;
+      }
+
+      if(password != conpass){
+        alert("Password must be same");
+        return;
+      }
+
+      const ageNum = parseInt(age); // function untuk mengubah tipe data menjadi integer
+        if(ageNum < 12 ){
+            alert("Age must above 12, or sign up kids profile");
+            return;
+      }
+
+      if(isMaleChecked == false && isFemaleChecked == false){
+        alert("Gender must be choosed");
+        return;
+      }
+      
+      alert("Success!");
+      window.location.href = "newsandpopular.html";
+
+    }
+  </script>  
+</body>
+</html>

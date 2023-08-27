@@ -1,0 +1,1180 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.bgimage{
+    height: 100vh;
+    background-image: linear-gradient(0deg, #0f111f, rgba(0,0,0,0)), url(./assets/bg-for-homepage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    z-index: -1;
+}
+
+.header{
+    display: flex;
+    /* background-color: black; */
+    justify-content: space-between;
+}
+
+#logo-jetflix{
+    color: #e3c7ff;
+    font-family: 'Fugaz One', sans-serif;
+    font-size: 50px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+#login-button-homepage{
+    color: #e3c7ff;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size:20px;
+    text-align: right;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.login-and-text{
+    height: 500px;
+    width: 100%;
+    margin-top: 200px;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#text-email{
+    color: #e3c7ff;
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+}
+
+#input-email{
+    text-align: center;
+    border: 5px solid #e3c7ff;
+    margin-top: 30px;
+    border-radius: 50px;
+    width: 100vh;
+    height: 50px;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    color: #e3c7ff;
+}
+
+#text-up-email{
+    color: #e3c7ff;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+#button-submit-form-homepage{
+    width: 100px;
+    height: 55px;
+    background-color: #e3c7ff;
+    border: none;
+    border-radius: 150px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+section{
+    height: 200vh;
+    background-color: #0f111f;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kid-profile{
+    height: 300px;
+    width: 80%;
+    padding: 20px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #85baff; */
+    border-radius: 50px;
+    border: 2px solid #e3c7ff;
+}
+
+#profile-pict-kid{
+    height: 150px;
+    margin-right: 50px;
+    filter: drop-shadow(10px 1px 2px #e3c7ff);
+}
+
+#text-kid-profile > h1{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #e3c7ff;
+    font-size: 50px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#text-kid-profile > h3{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #e3c7ff;
+    margin-right: 20px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.kid-movie-funfact{
+    height: 120vh;
+    width: 80%;
+    border-radius: 50px;
+    background-color: #ebd6ff;
+    display: inline-block;
+    flex-direction: center;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+#text-movie-funfact{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    color: #0f111f;
+    text-align: center;
+    margin-top: 20px;
+}
+
+li{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #0f111f;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+    font-size: 20px;
+    list-style: none;
+}
+
+.footer-section{
+    height: 120px;
+    width: 100%;
+    background-color: #0c0d16;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-section p{
+    color: #e3c7ff;
+    font-size: 11px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+@media screen and (max-width: 768px){
+    #logo-jetflix{
+      font-size: 30px;
+    }
+
+    .login-and-text {
+        margin-top: 100px;
+      }
+    
+      #text-email {
+        font-size: 30px;
+        text-align: center;
+      }
+    
+      #input-email {
+        width: 60%;
+        max-width: 300px;
+        margin-bottom: 40px;
+      }
+    
+      #text-up-email {
+        margin-top: 20px;
+        text-align: center;
+      }
+    
+      #button-submit-form-homepage {
+        width: 80px;
+        height: 45px;
+      }
+    
+      section {
+        height: 170vh;
+      }
+    
+      .kid-profile {
+        height: auto;
+        width: 90%;
+        margin: 20px;
+        flex-direction: column;
+      }
+    
+      #profile-pict-kid {
+        height: 100px;
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+    
+      #text-kid-profile > h1 {
+        font-size: 30px;
+        margin: 0;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+    
+      #text-kid-profile > h3 {
+        font-size: 20px;
+        margin: 0;
+        margin-top: 10px;
+        margin-left: 0;
+        text-align: center;
+      }
+    
+      .kid-movie-funfact {
+        height: auto;
+        width: 90%;
+        margin: 20px;
+        padding: 10px;
+      }
+    
+      #text-movie-funfact {
+        font-size: 30px;
+        margin-top: 10px;
+      }
+    
+      li {
+        margin-top: 30px;
+        margin-left: 0;
+        text-align: center;
+        font-size: 15px;
+      }
+}
+
+@media screen and (max-width: 600px){
+  #logo-jetflix{
+
+  }
+}
+
+/* LOGIN PAGE */
+
+.loginpage{
+  height: 100vh;
+  background-color: #0f111f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+
+#logo-loginpage{
+  height: 150px;
+  font-family: 'Fugaz One', sans-serif;
+  color: #e3c7ff;
+  font-size: 100px;
+  text-align: center;
+  /* background-color: white; */
+}
+
+a{
+  text-decoration: none;
+}
+
+.loginform{
+  height: 400px;
+  width: 30%;
+  margin-bottom: 50px;
+  border-radius: 25px;
+  background-color: #b69eff;
+  display: flex;
+  justify-content:space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form-title{
+  font-family: 'Bebas Neue', sans-serif;
+  color: #0f111f;
+  font-size: 40px;
+  /* background-color: black; */
+}
+
+input{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+  border-radius: 15px;
+  border : 2px solid #e3c7ff;
+  height: 40px;
+  width: 100%;
+  margin: 10px;
+  background-color: #ebd6ff;
+}
+
+#input-gender-male, #input-gender-female {
+  display: none;
+}
+
+.input-gender-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="radio"] + label {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #e3c7ff;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 10px;
+}
+
+input[type="radio"] + label:before {
+  content: "";
+  display: flex;
+  flex-direction: row;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #e3c7ff;
+  background-color: #ebd6ff;
+  margin-right: 5px;
+}
+
+input[type="radio"]:checked + label:before {
+  background-color: #0f111f;
+}
+
+.submit-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#submit-button{
+  background-color: #0f111f;
+  color: #e3c7ff;
+  font-family: 'Bebas Neue', sans-serif;
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+#submit-button > a{
+  color: #e3c7ff;
+}
+
+.footer-signup{
+    width: 100%;
+    height: 100px;
+    color: #e3c7ff;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 11px;
+    background-color: #0c0d16;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+  #logo-loginpage{
+    font-size: 60px;
+    /* margin-top: 20px; */
+  }
+  input{
+    height: 30px;
+    /* width: 60%; */
+  }
+  .loginform{
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  input{
+    height: 30px;
+  }
+  .loginform{
+    width: 50%;
+  }
+}
+
+/* News and Popular */
+
+.signed-up .sign-up-button {
+  display: none;
+}
+
+#body-news{
+  background-color: #0f111f;
+}
+
+#logo-jetflix{
+  color: #e3c7ff;
+  font-family: 'Fugaz One', sans-serif;
+  font-size: 2.5em;
+  text-align: left;
+  margin-top: 0px;
+  margin-left: 50px;
+  text-decoration: none;
+  padding-top: 10px;
+  /* background-color: #0c0d16; */
+}
+
+.header-news{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.nav-bar{
+  padding-top: 0;
+}
+
+.nav-bar ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar > ul > li > a{
+  color: #e3c7ff;
+  padding-top: 0;
+  margin-top: 0;
+  list-style-type: none;
+}
+
+.top-movie{
+  margin-top: 40px;
+}
+
+#top-movie-title{
+  color: #e3c7ff;
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 2px solid #85baff;
+  border-radius: 10px;
+  font-size: 5em;
+}
+
+.top-movie-list{
+  /* border: 2px solid #85baff; */
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.movie-list{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.movie-list > h1{
+  font-family: 'Bebas Neue', sans-serif;
+  color: #85baff;
+  font-size: 12.5em;
+  margin-left: 30px;
+}
+
+.top-movie-photo{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 400px;
+  border-radius: 30px;
+  border: 3px solid #e3c7ff;
+}
+
+.movie-list-desc{
+  /* height: 80vh; */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.movie-title{
+  color: #85baff;
+  font-size: 3.125em;
+  font-family: 'Bebas Neue', sans-serif;
+  margin-top: 20px;
+}
+
+.movie-desc{
+  color: #e3c7ff;
+  font-family: 'Bebas Neue';
+}
+
+.play-download-button{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  border: 2px solid #85baff;
+  border-radius: 10px;
+  padding: 10px;
+  width: 120px;
+  margin-top: px;
+}
+
+.play-button-text{
+  color: #e3c7ff;
+  font-family: 'Bebas Neue';
+}
+
+/* Movie Page */
+
+#body-movies-page{
+  background-color: #0f111f;
+  display: flex;
+  flex-direction: column;
+}
+
+#jumbotron{
+  height: 500px;
+  border-radius: 25px;
+  background-image: linear-gradient(0deg, #0f111f, rgba(0, 0, 0, 0)), url(./assets/9-1-1_Jumbotron.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: end;
+  pointer-events: none;
+}
+
+#jumbotron-title{
+  /* background-color: aliceblue; */
+  width: 50%;
+  color: #e3c7ff;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20vh;
+  text-align: left;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+#jumbotron-title-synopsis{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+#jumbotron-synopsis{
+  color: #85baff;
+  width: 50%;
+  font-family: 'Bebas Neue';
+  margin-bottom: 50px;
+  margin-left: 50px;
+  text-align: left;
+}
+
+#detail-button{
+  border: 2px solid #85baff;
+  border-radius: 10px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: start; 
+  align-items: center;
+  pointer-events: auto;
+}
+
+#detail-button > img{
+  /* margin-left: 10px; */
+  padding: 10px;
+}
+
+#detail-button > h3{
+  color: #e3c7ff;
+  padding: 10px;
+  font-family: 'Bebas Neue';
+}
+
+.category{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.category-list{
+  height: 150px;
+  width: 150px;
+  border: 3px solid #85baff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.category-list:hover{
+  background-color: #e3c7ff;
+}
+
+.category-list > img{
+  height: 100px;
+  width: 100px;
+}
+
+.category-list > h1{
+  color: #85baff;
+  font-family: 'Bebas Neue';
+}
+
+#trending-title{
+  color: #e3c7ff;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-left: 65px;
+}
+
+.trending-movies{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#trending-list-freeguy{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/freeguy.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-topgun{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/topgun.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-drstange{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/drstra.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-cars{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/cars.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-johnwick{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/johnwick.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-missimpo{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/missimpo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-madmax{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/madmax.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-theraid{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/theraid.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-casinoroyale{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/casinoroyale.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-thebourne{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/thbourne.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-lalaland{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/lalaland.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-thesocnet{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/thesocialnetwork.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-cmbyn{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/callmebyurname.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-joker{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/joker.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-mbts{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/manchesterbythesea.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-coco{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/coco.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-spiderman{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/spiderman.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-lionking{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/lionking.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-zootopia{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/Zootopia-Poster-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-free{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/free.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-kuroko{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/kuroko.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-aot{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/aot.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-idatenjump{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/idatenjump.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-doraemon{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/doraemon.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-paddington{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/paddington.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-homealone{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/homealone.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-tpe{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/thepolarexpress.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-narnia{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/narnia.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#trending-list-junglecruise{
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  border: 4px solid #85baff;
+  border-radius: 10px;
+  background-image: url(./assets/junglecruise.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer-movies{
+  margin-top: 100px;
+}
+
+/* Detail Page */
+
+#body-detail-page{
+  background-color: #0f111f;
+}
+
+#banner-detail{
+  height: 600px;
+  width: 100%;
+  background-image: linear-gradient(0deg, #0f111f, rgba(0,0,0,0.5) ), url(./assets/9-1-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+#episodes{
+  height: 200vh;
+}
+
+.category-detail{
+  color: #85baff;
+}
+
+#detail-title{
+  color: #e3c7ff;
+  font-family: 'Bebas Neue';
+  font-size: 150px;
+  text-align: center;
+  margin-top: 350px;
+}
+
+#detail-page-desc{
+  color: #e3c7ff;
+  font-family: 'Bebas Neue';
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#button-detail{
+  width: 100px;
+  height: 50px;
+  font-family: 'Bebas Neue';
+  font-size: 20px;
+  text-align: center;
+  background-color: #e3c7ff;
+  color: #0f111f;
+  border: 3px solid #85baff;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+#episodes{
+  margin-top: 350px;
+}
+
+#hr{
+  border-top: 3px solid #1e223d;
+}
+
+#episodes > h1{
+  color: #e3c7ff;
+  font-family: 'Bebas Neue', sans-serif;
+  margin-left: 250px;
+  margin-top: 30px;
+  font-size: 50px;
+}
+
+#list-episode{
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  gap: 50px;
+}
+
+.episode-list{
+  color: #e3c7ff;
+  font-family: 'Bebas Neue';
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.video-scene{
+  margin-top: 20px;
+  margin-left: 50px;
+  height: 200px;
+  width: 350px;
+  border: 3px solid #85baff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-scene > a > img{
+  height: 100px;
+}
+
+.title-desc{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.title-desc > h1{
+  margin-top: 20px;
+}
+
+.title-desc > h1 + p{
+  color: #85baff;
+}
+
+.episode1 {
+  background-image: linear-gradient(0deg, #0f111f, rgba(0,0,0,0.5)), url(./assets/episode1.jpeg);
+  background-size: cover;
+}
+
+.episode2{
+  background-image: linear-gradient(0deg, #0f111f, rgba(0,0,0,0.5)),url(./assets/episode2.jpg);
+  background-size: cover;
+}
+
+.episode3{
+  background-image:linear-gradient(0deg, #0f111f, rgba(0,0,0,0.5)), url(./assets/episode3.jpg);
+  background-size: cover;
+}
+
+.episode4{
+  background-image:linear-gradient(0deg, #0f111f, rgba(0,0,0,0.5)), url(./assets/episode3.jpeg);
+  background-size: cover;
+}
+
+.episode5{
+  background-image:linear-gradient(0deg, #0f111f, rgba(0,0,0,0.5)), url(./assets/episode5.jpg);
+  background-size: cover;
+}
+
+.episode6{
+  background-image:linear-gradient(0deg, #0f111f, rgba(0,0,0,0.5)), url(./assets/episode6.jpg);
+  background-size: cover;
+}
+
+.episode7{
+  background-image:linear-gradient(0deg, #0f111f, rgba(0,0,0,0.5)), url(./assets/episode7.jpg);
+  background-size: cover;
+}
+
+.episode8{
+  background-image:linear-gradient(0deg, #0f111f, rgba(0,0,0,0.5)), url(./assets/episode8.jpg);
+  background-size: cover;
+}
+
+.episode9{
+  background-image:linear-gradient(0deg, #0f111f, rgba(0,0,0,0.5)), url(./assets/episode9.jpg);
+  background-size: cover;
+}
+
+.episode10{
+  background-image:linear-gradient(0deg, #0f111f, rgba(0,0,0,0.5)), url(./assets/episode10.jpg);
+  background-size: cover;
+}
+
+.detail-gap{
+  margin-top: 200px;
+}
